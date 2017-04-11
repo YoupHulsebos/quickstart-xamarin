@@ -20,7 +20,7 @@ namespace QuickstartApp
              * Start Mobile Center SDK
              * Remember to replace {IOS_APP_SECRET} and {ANDROID_APP_SECRET} with your actual app secrets
              */
-            MobileCenter.Start("ios={IOS_APP_SECRET};android={ANDROID_APP_SECRET}", typeof(Analytics), typeof(Crashes));
+            MobileCenter.Start("ios=7516020c-7375-47d9-8316-881deb5a761e;android=19d235f4-ef8b-418d-ac31-840ed63595e1", typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
